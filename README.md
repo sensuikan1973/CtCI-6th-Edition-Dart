@@ -1,5 +1,8 @@
+[![Analyzer](https://github.com/sensuikan1973/CtCI-6th-Edition-Dart/workflows/Analyzer/badge.svg)](https://github.com/sensuikan1973/CtCI-6th-Edition-Dart/actions)
+[![Unit Test](https://github.com/sensuikan1973/CtCI-6th-Edition-Dart/workflows/Unit%20Test/badge.svg)](https://github.com/sensuikan1973/CtCI-6th-Edition-Dart/actions)
+
 # CtCI-6th-Edition-Dart
-Cracking the Coding Interview 6th Ed. Dart Solutions
+Cracking the Coding Interview 6th Ed. Dart Solutions.
 
 ## Development
 
@@ -8,7 +11,7 @@ Cracking the Coding Interview 6th Ed. Dart Solutions
 dartanalyzer ./
 ```
 
-## Test
+### Test
 ```sh
 pub run test ./
 ```
