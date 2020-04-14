@@ -1,0 +1,6 @@
+name: CtCi_6th_Edition_Dart
+author: Naoki Shimizu
+environment:
+  sdk: '>=2.7.0 <3.0.0'
+dependencies:
+  pedantic: 1.9.0
