@@ -6,7 +6,7 @@ Cracking the Coding Interview 6th Ed. Dart Solutions.
 
 ## Development
 
-### Analayzer
+### Analyzer
 ```sh
 dartanalyzer ./
 ```
