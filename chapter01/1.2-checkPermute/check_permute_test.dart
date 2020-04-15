@@ -2,7 +2,6 @@ import 'package:test/test.dart';
 
 import 'check_permute.dart';
 
-
 void main() {
   test('1.2-checkPermute', () {
     expect(checkPermute('aba', 'baa'), true);

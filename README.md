@@ -15,3 +15,8 @@ dartanalyzer ./
 ```sh
 pub run test ./
 ```
+
+### Format
+```sh
+dartfmt -w ./
+```
