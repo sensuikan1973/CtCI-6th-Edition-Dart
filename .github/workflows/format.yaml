@@ -19,8 +19,7 @@ jobs:
     - name: dartfmt
       shell: bash -xe {0}
       run: |
-        needFormat=$(dartfmt ./ -n)
-        if [ -z $needFormat ]; then
+        if [ -z $(dartfmt ./ -n) ]; then
           exit 0;
         else
           exit 1;
