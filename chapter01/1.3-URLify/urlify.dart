@@ -1,3 +1,6 @@
+// Time  : O(N)
+// Space : O(N)
+
 String urlify(String str, int trueLength) {
   var spaceCount = 0;
   for (var i = 0; i < trueLength; i++) {
