@@ -1,0 +1,27 @@
+name: Format
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    container:
+      image:  google/dart:latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: dartfmt
+      shell: bash -xe {0}
+      run: |
+        needFormat=$(dartfmt ./ -n)
+        if [ -z $needFormat ]; then
+          exit 0;
+        else
+          exit 1;
+        fi
