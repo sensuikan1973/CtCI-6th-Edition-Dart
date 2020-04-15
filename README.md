@@ -7,17 +7,17 @@ Cracking the Coding Interview 6th Ed. Dart Solutions.
 
 ## Development
 
-### Analyzer
+### [analyzer](https://pub.dev/packages/analyzer)
 ```sh
 dartanalyzer ./
 ```
 
-### Test
+### [test](https://pub.dev/packages/test)
 ```sh
 pub run test ./
 ```
 
-### Format
+### [dartfmt](https://dart.dev/tools/dartfmt)
 ```sh
 dartfmt -w ./
 ```
