@@ -1,8 +1,8 @@
-
 library linked_list_node;
 
 class LinkedListNode<T> {
-  LinkedListNode(this.data, LinkedListNode<T> next, LinkedListNode<T> previous) {
+  LinkedListNode(
+      this.data, LinkedListNode<T> next, LinkedListNode<T> previous) {
     setNext(next);
     setPrevious(previous);
   }
@@ -26,17 +26,17 @@ class LinkedListNode<T> {
   void printFowardNodes() {
     var message = '$data';
     var target = next;
-    while(target != null) {
+    while (target != null) {
       message = '$data -> ${target.data.toString()}';
       target = target.next;
     }
     print(message);
   }
 
-  List<T> getForwardNodeData(){
+  List<T> getForwardNodeData() {
     var target = this;
     final result = <T>[];
-    while(target != null) {
+    while (target != null) {
       result.add(target.data);
       target = target.next;
     }
