@@ -1,5 +1,8 @@
 import 'package:CtCi_6th_Edition_Dart/linked_list_node.dart';
 
+// Time: O(N)
+// Space: O(1)
+
 void removeDups<T>(LinkedListNode<T> node) {
   final set = <T>{};
   var cur = node;
